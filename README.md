@@ -12,6 +12,25 @@ Dense Pose
 Detectron 2
 Open CV - Face contours
 ```
+## Problem statement : 
+1.) In the security department police
+generally have a rough sketch of the criminal , they always want to have a proper vision of the criminal ,
+so If we have a hardware come software that will change the input image into the 3D mated image then
+that will be great . 
+
+2.) The patients who are Divyang that means physically challenged , they loves to see
+their own body in different colors as well moving and playing in different directions . Though generating
+a avtar and making this type of activities is possible by Argumented Reality but its difficult to bear it
+where ever we want to go , so this work will help them to generate this kind of things . So I am creating
+a camera based system using the power of Computer vision Deep Pose Facebook model that will
+generate 3D prosthetic model from a 2D image or video . This 3D prosthetic output we can use
+anywhere to generate different activities as well 3D modelling . Also this 3D modelling will help in virtual
+face surgery understanding .
+I will generate a complete hardware and software to create this out of the real time scenario which will
+help the Divyang , Police security and Face modelling .
+
+## Solution : 
+[solution]{https://github.com/Anustup900/AI-Prosthetic-vision/blob/main/images/SRS%201.png}
 ## Tensorflow Js : 
 
 TensorFlow.js is a very powerful library when it comes to using deep learning models directly in the browser. It includes support for a wide range of functions, covering basic machine learning, deep learning, and even model deployment. Another important feature of Tensorflow.js is the ability to use existing pre-trained models for quickly building exciting and cool applications.TensorFlow’s face landmark detection model to predict 486 3D facial landmarks that can infer the approximate surface geometry of human faces.
