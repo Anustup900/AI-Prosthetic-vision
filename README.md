@@ -30,7 +30,7 @@ I will generate a complete hardware and software to create this out of the real 
 help the Divyang , Police security and Face modelling .
 
 ## Solution : 
-[solution]{https://github.com/Anustup900/AI-Prosthetic-vision/blob/main/images/SRS%201.png}
+![solution](https://github.com/Anustup900/AI-Prosthetic-vision/blob/main/images/SRS%201.png)
 ## Tensorflow Js : 
 
 TensorFlow.js is a very powerful library when it comes to using deep learning models directly in the browser. It includes support for a wide range of functions, covering basic machine learning, deep learning, and even model deployment. Another important feature of Tensorflow.js is the ability to use existing pre-trained models for quickly building exciting and cool applications.TensorFlow’s face landmark detection model to predict 486 3D facial landmarks that can infer the approximate surface geometry of human faces.
