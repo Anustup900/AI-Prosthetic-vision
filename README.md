@@ -19,3 +19,35 @@ TensorFlow.js is a very powerful library when it comes to using deep learning mo
 ## Open CV Face contours :
 
 Contours are defined as the line joining all the points along the boundary of an image that are having the same intensity. Contours come handy in shape analysis, finding the size of the object of interest, and object detection. OpenCV has findContour() function that helps in extracting the contours from the image. It works best on binary images, so we should first apply thresholding techniques, Sobel edges, etc.
+
+# Dense Pose & Detectron 2 : 
+
+DensePose, is Facebook’s real-time approach for mapping all human pixels of 2D RGB images to a 3D surface-based model of the body.
+
+Research in human understanding aims primarily at localizing a sparse set of joints, like the wrists, or elbows of humans. This may suffice for applications like gesture or action recognition, but it delivers a reduced image interpretation. We wanted to go further. Imagine trying on new clothes via a photo or putting costumes on your friend’s photos. For these types of tasks, a more complete, surface-based image interpretation is required.
+
+The DensePose project addresses this and aims at understanding humans in images in terms of such surface-based models. Learn more about the work in this blog and our CVPR 2018 paper DensePose: Dense Human Pose Estimation In The Wild.
+
+The DensePose project introduces:
+
+DensePose-COCO, a large-scale ground-truth dataset with image-to-surface correspondences manually annotated on 50K COCO images.
+DensePose-RCNN, a variant of Mask-RCNN, to densely regress part-specific UV coordinates within every human region at multiple frames per second.
+
+Detectron2 was built by Facebook AI Research (FAIR) to support rapid implementation and evaluation of novel computer vision research. It includes implementations for the following object detection algorithms:
+```
+Mask R-CNN
+
+RetinaNet
+
+Faster R-CNN
+
+RPN
+
+Fast R-CNN
+
+TensorMask
+
+PointRend
+
+DensePose
+```
