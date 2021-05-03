@@ -70,3 +70,7 @@ PointRend
 
 DensePose
 ```
+## Training Architecture : 
+![one](https://github.com/Anustup900/AI-Prosthetic-vision/blob/main/images/srs%202.png)
+![second](https://github.com/Anustup900/AI-Prosthetic-vision/blob/main/images/srs%203.png)
+![Third](https://github.com/Anustup900/AI-Prosthetic-vision/blob/main/images/srs%204.png)
